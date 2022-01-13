@@ -47,16 +47,26 @@ nav .nav-title ul li a{
         display: flex;
         padding-top: 100px;
         height: 550px;
+        background-color: rgb(248, 237, 237);
+        border: 1px solid ;
+        border-radius: 10px;
+        border-style: none;
        
 }
 .Text-box{
         flex: 1;
         padding-left: 70px;
+        
 }
 .Text-box h1{
        font-size: 40px;
        line-height: 60px;
        color: #21243D;
+}
+.Text-box h1:hover{
+        color:#14172c ;
+        font-size: 44px;
+        transition: .5s;
 }
 .Text-box p{
         color:#21243D ;
@@ -91,10 +101,15 @@ nav .nav-title ul li a{
         height: 343px;
         border: 1px solid gray;
         border-radius: 180px;
-        background-color: rgb(235, 230, 230);
+        background-color: rgb(240, 214, 214) ;
        display: block;
         margin-left: 15px;
         margin: 0 auto;
+        border-style: none;
+}
+.img-container img:hover{
+        background-color:rgb(226, 150, 150) ;
+        transition: .7s;
 }
         /* Section second */
         .second-section{
@@ -103,6 +118,9 @@ nav .nav-title ul li a{
                  width: 100%;
                  margin: auto;
                  background: #cfe3e9;
+                 border: 1px solid;
+                 border-radius: 10px;
+                 border-style: none;
         }
         .main-part{
                 width: 90%;
@@ -163,8 +181,11 @@ nav .nav-title ul li a{
         }
          /* SERVICES */
          .third{
-                 background-color: rgb(219, 196, 241);
+                 background-color: rgb(243, 220, 236);
                  height: 500px;
+                 border: 1px solid;
+                 border-radius: 10px;
+                 border-style:none ;
                  
          }
          .header-point{
@@ -191,7 +212,7 @@ nav .nav-title ul li a{
 
          }
          .box:hover{
-                 background-color: rgb(125, 135, 224);
+                 background-color: rgb(243, 200, 200);
                  transition: .7s;
                  transform: scale(1.0251);
          }
@@ -199,9 +220,7 @@ nav .nav-title ul li a{
                  font-size: 40px;
                  color:#21243D ;
          }
-        .box:hover h2{
-                color: white;
-        } 
+       
          .box p{
                  font-size: 20px;
                  color:#21243D ;
